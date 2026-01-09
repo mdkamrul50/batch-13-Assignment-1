@@ -14,7 +14,6 @@ nav {
   align-items: center;
   padding: 16px 135px;
   background-color: #ffffff;
-  
 }
 
 .nav-logo img {
@@ -40,14 +39,102 @@ nav {
   cursor: pointer;
 }
 
-.nav-btn button{
+.nav-btn button {
   height: 45px;
   width: 144px;
-    text-align: center;
-    margin: 20px 0px;
-    background-color: #35c672;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    
+  text-align: center;
+  margin: 20px 0px;
+  background-color: #28c067;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+.hero-section {
+  height: 1360px;
+  width: 100%;
+
+}
+
+.banner {
+  height: 660px;
+  background-image: url('./B13-A01-Knowledge-Vault/assets/hero-bg.png');
+  background-size: cover;
+  text-align: center;
+  padding-top: 154px;
+  background-position: fixed;
+}
+
+.banner-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 229px;
+  height: 35px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 21px;
+  border: none;
+  background-color: rgb(231, 222, 222);
+}
+
+.banner-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-btn h2 {
+  height: 14px;
+  width: 200px;
+  font-size: 15px;
+  padding-bottom: 3.1px;
+  color: #20ab5a;
+}
+
+.banner h1 {
+  font-size: 80px;
+  font-weight: 630;
+  line-height: 84px;
+  font-style: bold;
+  color: rgb(36, 187, 99);
+  font-family: 'Inter', sans-serif;
+}
+
+.intro {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.intro .intro-1 {
+  color: #ffffff;
+}
+
+.banner p {
+  height: 60px;
+  font-size: 19px;
+  font-weight: 330;
+  color: #faf5f5d1;
+  line-height: 40px;
+}
+
+.hero-btn-2 button {
+  height: 50px;
+  width: 250px;
+border-radius: 5px;
+border: none;
+
+}
+
+.hero-btn-2 {
+  padding-top: 45px;
+  padding-right: 17px;
+}
+
+ .hero-btn-2 .see-btn{
+  height: 50px;
+  width: 195px;
+  margin-left: 13px;
+  border: 1px solid rgb(255, 254, 254);
+  background-color: transparent;
+  color: #ffffff;
+}
+
