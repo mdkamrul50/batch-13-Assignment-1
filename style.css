@@ -334,12 +334,12 @@ nav {
   color: #ffffff;
 }
 
-.access-in button:hover{
+.access-in button:hover {
   color: #065226;
 }
 
 .footer-section {
-  height: 220px;
+  height: 230px;
   background-color: rgba(0, 25, 49, 1);
   padding-top: 120px;
   padding-right: 120px;
@@ -380,9 +380,18 @@ nav {
   color: #f3f2f2;
 }
 
-.copyright {
+.copyright-section {
   padding-top: 110px;
   text-align: center;
   color: rgba(250, 250, 250, 1);
   margin-bottom: 30px;
+}
+
+.copyright {
+  height: 54px;
+   border-top: 1px solid rgb(10, 59, 105);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
